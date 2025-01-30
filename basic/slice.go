@@ -12,4 +12,7 @@ func StringEdit() {
 	// s[0] = 'h' immutable string
 	s2 := s[1:5]
 	fmt.Println(s2)
+
+	ps := new([]string)
+	fmt.Println(ps)
 }
